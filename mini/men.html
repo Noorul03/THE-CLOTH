@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+
+        }
+        body{
+            background-color: rgb(47, 47, 54);
+        }
+         nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #37383a;
+        }
+
+        #nav {
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(8, 7, 7);
+        }
+
+        a:hover {
+            text-shadow: 2px 2px 2px grey;
+        }
+
+        .n1,
+        .n2,
+        .n3 {
+            padding: 18px;
+        }
+        .bgm{
+            background-image: url(menbg.jpg);
+            height: 400px;
+            width: 100%;
+            background-repeat: no-repeat;
+            padding-top: 0px;
+            background-size:cover;
+
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="" height="70px" width="100px">
+        <div id="nav">
+            <h1 class="n1"><a href="index.html" target="_blank">HOME</a></h1>
+            <h1 class="n2"><a href="women.html">WOMEN</a></h1>
+            <h1 class="n3"><a href="">CONTACT</a></h1>
+        </div>
+    </nav>
+
+    <main id="main">
+        <div class="bgm"></div>
+    </main>
+</body>
+</html>
